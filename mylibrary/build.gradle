@@ -16,7 +16,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId = 'com.github.5645q'//插件id，格式：com.gitee/github.用户名
-                artifactId = 'testDemo'//插件名称
+                artifactId = 'JitPackTest11'//插件名称
                 version = '1.0'//版本号
                 //引用使用格式：implementation 'com.gitee.xiaweifeng:JitPackTest11:1.0'
             }
